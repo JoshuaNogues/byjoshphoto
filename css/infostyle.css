@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+body {
+    font-family: 'Poppins', 'Crimson Text';
+  }
+
+header > div {
+    padding: 0px 25px 0px 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.logo {
+    width: 150px;
+    margin-left: 80px;
+}
+
+  .navLinks {
+    margin: 0 auto;
+  }
+
+ nav {
+    width: 400px;
+ }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 0px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+.theExpPic {
+    object-fit: cover;
+    object-position: 50% 28%;
+    height: 1000px;
+    width:100%;
+}
+
+.theExperience {
+    position: relative;
+    filter: brightness(90%);
+  }
+  
+  .expH1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-family: 'crimson';
+  }
+
+  .container {
+    display: grid;
+  }
+
+  .rawilAndAngie, .jacobAndChantal, .matAndCaro {
+    width: 15%;
+    border-radius: 50%;
+
+  }
+
+  .jenAndBen, .rawilElopement, .jesseAndNicole {
+    width: 15%;
+  }
+
+  p {
+    width: 700px;
+  }
