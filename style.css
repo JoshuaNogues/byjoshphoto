@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+body {
+  font-family: 'Poppins', 'Crimson Text';
+}
+
+header > div {
+    padding: 0px 25px 0px 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    margin-left: 80px;
+}
+
+ nav {
+    width: 400px;
+    margin-right: 60px;
+ }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 0px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .picture {
+    width: 98%;
+  }
+
+  #frontPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .ocean {
+    width: 2700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #description h2 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: 'Crimson';
+    font-size: xx-large;
+    font-weight: 100 ;
+    letter-spacing: 2.5px;
+    line-height: 220%;
+    display: flex;
+    text-align: center;
+  }
+  
+  #description img {
+    position: relative;
+    z-index: 0;
+  }
+  
+
+  .frontPageBackground {
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+
+  .aboutMe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px 0px 400px
+  }
+
+  .aboutMe h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Crimson';
+    letter-spacing: 1.5px;
+    font-weight: 350;
+    font-size: xx-large;
+    margin: 0px 500px 75px 0px;
+  }
+  
+  .me {
+    display: block;
+    width: 400px; 
+    height: 600px; 
+    margin-right: 20px; 
+  }
+
+  .ftm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px 0px 400px
+  }
+
+  .ftm h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Crimson';
+    letter-spacing: 1.5px;
+    font-weight: 350;
+    font-size: xx-large;
+    margin: 0px 00px 75px 0px;
+  }
+
+  .feelTheMoment {
+    display: block;
+    width: 400px; 
+    height: 600px; 
+    margin-right: 540px; 
+  }
+
+.centerMe {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerRawil {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutMe p {
+  display: flex;
+  justify-content: center;
+  margin: 0px 100px 0px 100px;
+  width: 60%; 
+}
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: 70px;
+    cursor: pointer;
+  }
