@@ -64,6 +64,7 @@ header > div {
 
   .container {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .rawilAndAngie, .jacobAndChantal, .matAndCaro {
@@ -77,5 +78,5 @@ header > div {
   }
 
   p {
-    width: 700px;
+    width: 500px;
   }
