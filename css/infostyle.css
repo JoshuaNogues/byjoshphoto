@@ -5,37 +5,41 @@ body {
     font-family: 'Poppins', 'Crimson Text';
   }
 
-header > div {
-    padding: 0px 25px 0px 0px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-} 
-
-.logo {
+  .logo {
     width: 150px;
-    margin-left: 80px;
-}
-
-  .navLinks {
-    margin: 0 auto;
+    margin: 0 0 0 70px;
   }
-
- nav {
-    width: 400px;
- }
+  
+  .navContainer {
+    display: grid;
+    grid-template-columns:1fr;
+    align-items: center;
+  }
   
   nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    align-items:center;
-    padding-left: 0px;
+    justify-content: center;
+    padding: 0;
   }
   
   nav a {
     text-decoration: none;
     color: black;
+  } 
+  
+  nav > ul > li {
+    margin: 0 50px;
+  }
+  
+  .logoContainer {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .navLinkContainer {
+    grid-column: 1;
+    grid-row: 1;
   }
 
 .theExpPic {
@@ -62,21 +66,45 @@ header > div {
     font-family: 'crimson';
   }
 
-  .container {
+  #Reviews, #Packages {
+    display: flex;
+    justify-content: center;
+    font-family: 'crimson';
+    font-size: 50px ;
+    font-weight: 100;
+    letter-spacing: 5px;
+  }
+
+  .container, .container2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+  }
+
+  .container, .container2 > div {
+    text-align: center;
   }
 
   .rawilAndAngie, .jacobAndChantal, .matAndCaro {
-    width: 15%;
+    width: 45%;
     border-radius: 50%;
-
   }
 
   .jenAndBen, .rawilElopement, .jesseAndNicole {
-    width: 15%;
+    width: 45%;
   }
 
   p {
-    width: 500px;
+    width: 700px;
+  }
+
+  .button {
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px 25px;
+    color: teal;
+    border-color: teal;
+    font-family: 'poppins';
   }

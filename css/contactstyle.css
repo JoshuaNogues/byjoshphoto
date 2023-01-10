@@ -1,0 +1,36 @@
+.logo {
+    width: 150px;
+    margin: 0 0 0 70px;
+  }
+  
+  .navContainer {
+    display: grid;
+    grid-template-columns:1fr;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  } 
+  
+  nav > ul > li {
+    margin: 0 50px;
+  }
+  
+  .logoContainer {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .navLinkContainer {
+    grid-column: 1;
+    grid-row: 1;
+  }
