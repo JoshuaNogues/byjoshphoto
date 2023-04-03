@@ -1,36 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+body {
+  font-family: 'Poppins', 'Crimson Text';
+}
+
 .logo {
-    width: 150px;
-    margin: 0 0 0 70px;
-  }
-  
-  .navContainer {
-    display: grid;
-    grid-template-columns:1fr;
-    align-items: center;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: black;
-  } 
-  
-  nav > ul > li {
-    margin: 0 50px;
-  }
-  
-  .logoContainer {
-    grid-column: 1;
-    grid-row: 1;
-  }
-  
-  .navLinkContainer {
-    grid-column: 1;
-    grid-row: 1;
-  }
+  width: 150px;
+  margin: 0 0 0 70px;
+}
+
+.navContainer {
+  display: grid;
+  grid-template-columns:1fr;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+} 
+
+nav > ul > li {
+  margin: 0 50px;
+}
+
+.logoContainer {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.navLinkContainer {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.client-questionnaire {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.client-questionnaire h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.client-questionnaire p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+/* Style the form */
+form {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border: none;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+.date {
+  display: flex;
+}
+
+.spacing-date {
+  margin-right: 5px;
+  margin-left: 5px;
+}
