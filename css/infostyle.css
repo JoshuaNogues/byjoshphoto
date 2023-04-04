@@ -108,3 +108,15 @@ body {
     border-color: teal;
     font-family: 'poppins';
   }
+
+  a {
+    text-decoration: none;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: teal;
+    height: 10vh;
+    margin-top: 10vh;
+  }
