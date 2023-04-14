@@ -1,27 +1,27 @@
 const oceanImg = document.querySelector('.ocean');
 const zoomFactor = 1.2; // adjust this to control the zoom level
 
-const frontPage = document.querySelector("#frontPage");
-const prevArrow = document.querySelector("#prevArrow");
-const nextArrow = document.querySelector("#nextArrow");
+// const frontPage = document.querySelector("#frontPage");
+// const prevArrow = document.querySelector("#prevArrow");
+// const nextArrow = document.querySelector("#nextArrow");
 
-const scrollAmount = 300; // adjust this to change the scroll amount
+// const scrollAmount = 300; // adjust this to change the scroll amount
 
-prevArrow.addEventListener("click", () => {
-  const leftPos = frontPage.scrollLeft - scrollAmount;
-  frontPage.scrollBy({
-    left: Math.max(leftPos, 0),
-    behavior: "smooth"
-  });
-});
+// prevArrow.addEventListener("click", () => {
+//   const leftPos = frontPage.scrollLeft - scrollAmount;
+//   frontPage.scrollBy({
+//     left: Math.max(leftPos, 0),
+//     behavior: "smooth"
+//   });
+// });
 
-nextArrow.addEventListener("click", () => {
-  const leftPos = frontPage.scrollLeft + scrollAmount;
-  frontPage.scrollBy({
-    left: Math.min(leftPos, frontPage.scrollWidth - frontPage.clientWidth),
-    behavior: "smooth"
-  });
-});
+// nextArrow.addEventListener("click", () => {
+//   const leftPos = frontPage.scrollLeft + scrollAmount;
+//   frontPage.scrollBy({
+//     left: Math.min(leftPos, frontPage.scrollWidth - frontPage.clientWidth),
+//     behavior: "smooth"
+//   });
+// });
 
 
 
